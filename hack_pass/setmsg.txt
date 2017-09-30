@@ -1,0 +1,12 @@
+POST /rest/user/login HTTP/1.1
+Host: nobus-juice-shop.herokuapp.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+Accept: application/json, text/plain, */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Content-Type: application/json;charset=utf-8
+Referer: https://nobus-juice-shop.herokuapp.com/
+Content-Length: 38
+Cookie: continueCode=kzv7XV6onBmExbZReO85AorHQuLhXIJfyHkhwIl0aj3WMD2Q1wYJgyPK9NqL; io=u_x6MU1u0ZpHiA71AAAA
+Connection: close
+
+{"email":"abcdefg","password":"12345"}
